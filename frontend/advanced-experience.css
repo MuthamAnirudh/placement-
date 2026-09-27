@@ -1,0 +1,8 @@
+/* Advanced experience layer: improves existing screens without creating new navigation. */
+.cp-advanced-focus { outline: 2px solid rgba(79,70,229,.35); outline-offset: 2px; }
+.cp-advanced-restored { animation: cpAdvancedPulse 900ms ease-out; }
+@keyframes cpAdvancedPulse { 0% { box-shadow: 0 0 0 0 rgba(79,70,229,.22); } 100% { box-shadow: 0 0 0 10px rgba(79,70,229,0); } }
+.cp-advanced-draft { position: relative; }
+.cp-advanced-draft::after { content: 'Saved locally'; position: absolute; right: 8px; bottom: 6px; font: 700 9px/1 system-ui,sans-serif; color: #64748b; opacity: .0; transition: opacity .18s ease; pointer-events:none; }
+.cp-advanced-draft.cp-draft-visible::after { opacity: .85; }
+@media (prefers-reduced-motion: reduce) { .cp-advanced-restored { animation: none; } }

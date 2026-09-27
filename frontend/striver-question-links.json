@@ -1,0 +1,2610 @@
+[
+ {
+  "file": "Step 01 - Basics/ALL-DIVISORS.py",
+  "problem": "Kth Factor of n",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/the-kth-factor-of-n/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 01 - Basics/ARMSTRONG-NUMBER.py",
+  "problem": "Armstrong Number",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/armstrong-number/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 01 - Basics/BASIC-RECURSION.ipynb",
+  "problem": "Basic Recursion",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "Concept"
+ },
+ {
+  "file": "Step 01 - Basics/CHECK-PALINDROME.py",
+  "problem": "Palindrome Number",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/palindrome-number/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 01 - Basics/COUNT-PRIMES.py",
+  "problem": "Count Primes",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/count-primes/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 01 - Basics/LAMBDA-FUNCTIONS.PY",
+  "problem": "Lambda Functions",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "Concept"
+ },
+ {
+  "file": "Step 01 - Basics/LCM-GCD.py",
+  "problem": "Find Greatest Common Divisor of Array",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/find-greatest-common-divisor-of-array/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 01 - Basics/REVERSE-NUMBER.py",
+  "problem": "Reverse Integer",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/reverse-integer/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 02 - Sorting Techniques/BUBBLE-SORT.py",
+  "problem": "Sort an Array",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/sort-an-array/",
+  "difficulty": "Medium",
+  "note": "Bubble Sort"
+ },
+ {
+  "file": "Step 02 - Sorting Techniques/INSERTION-SORT.py",
+  "problem": "Sort an Array",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/sort-an-array/",
+  "difficulty": "Medium",
+  "note": "Insertion Sort"
+ },
+ {
+  "file": "Step 02 - Sorting Techniques/MERGE-SORT.py",
+  "problem": "Sort an Array",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/sort-an-array/",
+  "difficulty": "Medium",
+  "note": "Merge Sort"
+ },
+ {
+  "file": "Step 02 - Sorting Techniques/QUICK-SORT.py",
+  "problem": "Sort an Array",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/sort-an-array/",
+  "difficulty": "Medium",
+  "note": "Quick Sort"
+ },
+ {
+  "file": "Step 02 - Sorting Techniques/SELECTION-SORT.py",
+  "problem": "Sort an Array",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/sort-an-array/",
+  "difficulty": "Medium",
+  "note": "Selection Sort"
+ },
+ {
+  "file": "Step 03 - Arrays/2-SUM.py",
+  "problem": "Two Sum",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/two-sum/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/3-SUM-CLOSEST.py",
+  "problem": "3Sum Closest",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/3sum-closest/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/3-SUM.py",
+  "problem": "3Sum",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/3sum/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/4-SUM.py",
+  "problem": "4Sum",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/4sum/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/ARRAY-LEADERS.py",
+  "problem": "Leaders in an Array",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 03 - Arrays/BEST-TIME-TO-BUY-SELL-STOCK.py",
+  "problem": "Best Time to Buy and Sell Stock",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/CONTIGUOUS-ARRAY.py",
+  "problem": "Contiguous Array",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/contiguous-array/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/COUNT-INVERSIONS.py",
+  "problem": "Count Inversions",
+  "match": "other-platform",
+  "url": "https://www.hackerrank.com/challenges/ctci-merge-sort/problem",
+  "difficulty": "",
+  "note": "HackerRank"
+ },
+ {
+  "file": "Step 03 - Arrays/GRUMPY-BOOKSTORE-OWNER.py",
+  "problem": "Grumpy Bookstore Owner",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/grumpy-bookstore-owner/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/KTH-ELEMENT.py",
+  "problem": "K-th Element of Two Sorted Arrays",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 03 - Arrays/LARGEST-SUBARR-WITH-ZERO-SUM.py",
+  "problem": "Largest Subarray with 0 Sum",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 03 - Arrays/LONGEST-CONSECUTIVE-SUBSEQ.py",
+  "problem": "Longest Consecutive Sequence",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/LONGEST-SUBARR-WITH-SUM-K.py",
+  "problem": "Maximum Size Subarray Sum Equals k",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/MAJORITY-ELEMENT-2.py",
+  "problem": "Majority Element II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/majority-element-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/MAJORITY-ELEMENT.py",
+  "problem": "Majority Element",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/majority-element/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/MAX-PRODUCT-SUBARR.py",
+  "problem": "Maximum Product Subarray",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/maximum-product-subarray/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/MAX-SUM-SUBARRAY.py",
+  "problem": "Maximum Subarray",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/maximum-subarray/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/MERGE-INTERVALS.py",
+  "problem": "Merge Intervals",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/merge-intervals/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/MERGE-SORTED-ARR.py",
+  "problem": "Merge Sorted Array",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/merge-sorted-array/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/MISSING-REPEATING.py",
+  "problem": "Find Missing and Repeated Values",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/find-missing-and-repeated-values/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/MOVE-ZEROS-TO-END.py",
+  "problem": "Move Zeroes",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/move-zeroes/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/NEXT-PERMUTATION.py",
+  "problem": "Next Permutation",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/next-permutation/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/PASCAL-TRIANG.py",
+  "problem": "Pascal's Triangle",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/pascals-triangle/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/PRINT-MAX-SUM-SUBARR.py",
+  "problem": "Maximum Subarray",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/maximum-subarray/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/REMOVE-DUPLICATES-SORTED-ARR.py",
+  "problem": "Remove Duplicates from Sorted Array",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/REV-PAIRS.py",
+  "problem": "Reverse Pairs",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/reverse-pairs/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/ROTATE-ARRAY-D-PLACES.py",
+  "problem": "Rotate Array",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/rotate-array/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/ROTATE-IMAGE.py",
+  "problem": "Rotate Image",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/rotate-image/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/SET-MATRIX-ZERO.py",
+  "problem": "Set Matrix Zeroes",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/set-matrix-zeroes/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/SORT-0S-1S-2S.py",
+  "problem": "Sort Colors",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/sort-colors/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/SPIRAL-MATRIX-IV.py",
+  "problem": "Spiral Matrix IV",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/spiral-matrix-iv/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/SPIRAL-MATRIX.py",
+  "problem": "Spiral Matrix",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/spiral-matrix/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/SUBARR-SUM-EQ-K.py",
+  "problem": "Subarray Sum Equals K",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/subarray-sum-equals-k/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 03 - Arrays/SUBARR-WITH-XOR-X.py",
+  "problem": "Count Subarrays with XOR K",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "Coding Ninjas"
+ },
+ {
+  "file": "Step 03 - Arrays/UNION-FIND.py",
+  "problem": "Union of Two Sorted Arrays",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 04 - Binary Search/2D-MATRIX-BINARY-SEARCH.py",
+  "problem": "Search a 2D Matrix",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/search-a-2d-matrix/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/2D-MATRIX-BS-HARD.py",
+  "problem": "Search a 2D Matrix II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/AGGRESSIVE-COWS.py",
+  "problem": "Aggressive Cows",
+  "match": "other-platform",
+  "url": "https://www.spoj.com/problems/AGGRCOW/",
+  "difficulty": "",
+  "note": "SPOJ"
+ },
+ {
+  "file": "Step 04 - Binary Search/BOOK-ALLOCATION-PROBLEM.py",
+  "problem": "Allocate Minimum Number of Pages",
+  "match": "other-platform",
+  "url": "https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 04 - Binary Search/CEIL-FLOOR.py",
+  "problem": "Find Smallest Letter Greater Than Target",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/find-smallest-letter-greater-than-target/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/FIRST-LAST-INDEX.py",
+  "problem": "Find First and Last Position of Element in Sorted Array",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/GAS-STATIONS.py",
+  "problem": "Minimize Max Distance to Gas Station",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/minimize-max-distance-to-gas-station/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/KOKO-EATING-BANANAS.py",
+  "problem": "Koko Eating Bananas",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/koko-eating-bananas/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/KTH-MISSING-POS.py",
+  "problem": "Kth Missing Positive Number",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/kth-missing-positive-number/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/MAX-1S-ROW.py",
+  "problem": "Row With Maximum Ones",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/row-with-maximum-ones/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/MEDIAN-IN-MATRIX.py",
+  "problem": "Kth Smallest Element in a Sorted Matrix",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/MEDIAN-OF-TWO-SORTED-ARR.py",
+  "problem": "Median of Two Sorted Arrays",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/MIN-DAYS-M-BOUQETS.py",
+  "problem": "Minimum Number of Days to Make m Bouquets",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/MIN-IN-ROTATED-ARRAY.py",
+  "problem": "Find Minimum in Rotated Sorted Array",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/NTH-ROOT.py",
+  "problem": "Sqrt(x)",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/sqrtx/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/PAINTERS-PARTITION.py",
+  "problem": "Painter's Partition Problem",
+  "match": "other-platform",
+  "url": "https://www.hackerearth.com/problem/algorithm/painters-partition/",
+  "difficulty": "",
+  "note": "HackerEarth"
+ },
+ {
+  "file": "Step 04 - Binary Search/PEAK-ELEMENT-02.py",
+  "problem": "Find a Peak Element II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/find-a-peak-element-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/PEAK-ELEMENT.py",
+  "problem": "Find Peak Element",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/find-peak-element/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/ROTATION.py",
+  "problem": "Find Minimum in Rotated Sorted Array",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/SEARCH-INSERT-POSITION.py",
+  "problem": "Search Insert Position",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/search-insert-position/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/SEARCH-ROT-SORTED-1.py",
+  "problem": "Search in Rotated Sorted Array",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/SEARCH-ROT-SORTED-2.py",
+  "problem": "Search in Rotated Sorted Array II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/SHIP-PACKAGES.py",
+  "problem": "Capacity To Ship Packages Within D Days",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/SINGLE-ELEMENT.py",
+  "problem": "Single Element in a Sorted Array",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/single-element-in-a-sorted-array/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/SMALLEST-DIVISOR.py",
+  "problem": "Find the Smallest Divisor Given a Threshold",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/SPLIT-LARGEST.py",
+  "problem": "Split Array Largest Sum",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/split-array-largest-sum/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 04 - Binary Search/SQRT.py",
+  "problem": "Sqrt(x)",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/sqrtx/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/CHECK-ROTATION.py",
+  "problem": "Rotate String",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/rotate-string/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/COUNT-PALINDROMIC-SUBSEQ.py",
+  "problem": "Count Different Palindromic Subsequences",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/count-different-palindromic-subsequences/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/COUNT-SAY.py",
+  "problem": "Count and Say",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/count-and-say/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/COUNT-SUBSTRS.py",
+  "problem": "Subarrays with K Different Integers",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/FIND-INDEX-OF-FIRST-OCCURENCE.py",
+  "problem": "Find the Index of the First Occurrence in a String",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/IMPLEMENT-ATOI.py",
+  "problem": "String to Integer (atoi)",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/string-to-integer-atoi/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/KMP-PATTERN-MATCHING.py",
+  "problem": "Find the Index of the First Occurrence in a String",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/LARGEST-ODD-NUM-IN-STRING.py",
+  "problem": "Largest Odd Number in String",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/largest-odd-number-in-string/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/LONGEST-COMMON-PREFIX.py",
+  "problem": "Longest Common Prefix",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/longest-common-prefix/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/LONGEST-HAPPY-PREFIX.py",
+  "problem": "Longest Happy Prefix",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/longest-happy-prefix/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/LONGEST-PALINDROMIC-SUBSTR.py",
+  "problem": "Longest Palindromic Substring",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/longest-palindromic-substring/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/MAX-SCORE-FROM-REMOVING-SUBSTR.py",
+  "problem": "Maximum Score From Removing Substrings",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/maximum-score-from-removing-substrings/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/MIN-ADD-TO-MAKE-PARANTHESES.py",
+  "problem": "Minimum Add to Make Parentheses Valid",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/RABIN-KARP-REPEATED-STRING-MATCH.py",
+  "problem": "Repeated String Match",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/repeated-string-match/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/REMOVE-OUTER-PARANTH.py",
+  "problem": "Remove Outermost Parentheses",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/remove-outermost-parentheses/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/REV-WORDS.py",
+  "problem": "Reverse Words in a String",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/reverse-words-in-a-string/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/ROMAN-TO-INT.py",
+  "problem": "Roman to Integer",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/roman-to-integer/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/SHORTEST-PALINDROME.py",
+  "problem": "Shortest Palindrome",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/shortest-palindrome/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/SORT-CHARS-BY-FREQ.py",
+  "problem": "Sort Characters By Frequency",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/sort-characters-by-frequency/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/SUM-OF-BEAUTY-OF-ALL-SUBSTR.py",
+  "problem": "Sum of Beauty of All Substrings",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 05 + 18 - Strings/VALID-ANAGRAMS.py",
+  "problem": "Valid Anagram",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/valid-anagram/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/ADD-TWO-NUMBERS.py",
+  "problem": "Add Two Numbers",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/add-two-numbers/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/CLONE-LIST.py",
+  "problem": "Copy List with Random Pointer",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/DESIGN BASED/LFU-CACHE.py",
+  "problem": "LFU Cache",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/lfu-cache/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/DESIGN BASED/LRU-CACHE.py",
+  "problem": "LRU Cache",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/lru-cache/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/DETECT-CYCLE-II.py",
+  "problem": "Linked List Cycle II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/linked-list-cycle-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/DETECT-CYCLE.py",
+  "problem": "Linked List Cycle",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/linked-list-cycle/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/FLATTEN-DLL.py",
+  "problem": "Flatten a Multilevel Doubly Linked List",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/FLATTEN-LL.py",
+  "problem": "Flattening a Linked List",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 06 - Linked List/INSERT-GCD-IN-LINKED-LIST.py",
+  "problem": "Insert Greatest Common Divisors in Linked List",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/INSERT-NODE-DLL.py",
+  "problem": "Insert a Node in a Doubly Linked List",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 06 - Linked List/INTERSECTION-OF-LL.py",
+  "problem": "Intersection of Two Linked Lists",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/LENGTH-OF-CYCLE.py",
+  "problem": "Linked List Cycle II",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/linked-list-cycle-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/ODD-EVEN-GROUPING.py",
+  "problem": "Odd Even Linked List",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/odd-even-linked-list/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/PAIRS-IN-DLL.py",
+  "problem": "Find Pairs with Given Sum in a Doubly Linked List",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 06 - Linked List/PALINDROME.py",
+  "problem": "Palindrome Linked List",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/palindrome-linked-list/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/REMOVE-DUPLICATES-DLL.py",
+  "problem": "Remove Duplicates from Sorted List II",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/REMOVE-NODES-DLL.py",
+  "problem": "Remove Linked List Elements",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/remove-linked-list-elements/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/REMOVE-NTH-NODE.py",
+  "problem": "Remove Nth Node From End of List",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/REVERSE-DLL.py",
+  "problem": "Reverse Linked List",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/reverse-linked-list/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/REVERSE-LL.py",
+  "problem": "Reverse Linked List",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/reverse-linked-list/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/REVERSE-NODES-IN-GROUP-OF-K.py",
+  "problem": "Reverse Nodes in k-Group",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/ROTATE-LIST.py",
+  "problem": "Rotate List",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/rotate-list/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/SORT-0S-1S-2S.py",
+  "problem": "Sort List",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/sort-list/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/SORT-LIST.py",
+  "problem": "Sort List",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/sort-list/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/SPLIT-LINKED-LIST-IN-PARTS.py",
+  "problem": "Split Linked List in Parts",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/split-linked-list-in-parts/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 06 - Linked List/TORTOISE-HAIR-METHOD.py",
+  "problem": "Middle of the Linked List",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/middle-of-the-linked-list/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 07 - Recursion/BETTER-STRING.py",
+  "problem": "Better String",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "Coding Ninjas"
+ },
+ {
+  "file": "Step 07 - Recursion/COMBINATION-SUM-1.py",
+  "problem": "Combination Sum",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/combination-sum/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 07 - Recursion/COMBINATION-SUM-2.py",
+  "problem": "Combination Sum II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/combination-sum-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 07 - Recursion/COMBINATION-SUM-3.py",
+  "problem": "Combination Sum III",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/combination-sum-iii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 07 - Recursion/GENERATE-ALL-BIN-STRINGS.py",
+  "problem": "Generate All Binary Strings (no consecutive 1s)",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 07 - Recursion/GENERATE-PARANTHESES.py",
+  "problem": "Generate Parentheses",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/generate-parentheses/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 07 - Recursion/M-COLORING-PROBLEM.py",
+  "problem": "M-Coloring Problem",
+  "match": "other-platform",
+  "url": "https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 07 - Recursion/N-QUEEN.py",
+  "problem": "N-Queens",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/n-queens/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 07 - Recursion/PALINDROME-PARTITIONING.py",
+  "problem": "Palindrome Partitioning",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/palindrome-partitioning/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 07 - Recursion/PHONE-NUMBER.py",
+  "problem": "Letter Combinations of a Phone Number",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 07 - Recursion/RAT-IN-A-MAZE.py",
+  "problem": "Rat in a Maze",
+  "match": "other-platform",
+  "url": "https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 07 - Recursion/REVERSE-STACK.py",
+  "problem": "Reverse a Stack Using Recursion",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 07 - Recursion/SUBSET-SUM-1.py",
+  "problem": "Subsets",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/subsets/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 07 - Recursion/SUBSET-SUM-2.py",
+  "problem": "Subsets II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/subsets-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 07 - Recursion/SUBSETS.py",
+  "problem": "Subsets",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/subsets/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 07 - Recursion/SUDOKU-SOLVER.py",
+  "problem": "Sudoku Solver",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/sudoku-solver/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 07 - Recursion/WORD-BREAK.py",
+  "problem": "Word Break",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/word-break/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 07 - Recursion/WORD-SEARCH.py",
+  "problem": "Word Search",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/word-search/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 08 - Bit Manipulation/ALL-DIV-OF-A-NUM.py",
+  "problem": "Print All Divisors of a Number",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 08 - Bit Manipulation/CHECK-ITH-BIT.py",
+  "problem": "Check if the i-th Bit is Set",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 08 - Bit Manipulation/COUNT-BITS-TO-FLIP-A-TO-B.py",
+  "problem": "Minimum Bit Flips to Convert Number",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 08 - Bit Manipulation/COUNT-SET-BITS.py",
+  "problem": "Number of 1 Bits",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/number-of-1-bits/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 08 - Bit Manipulation/DIVIDE-TWO-INT.py",
+  "problem": "Divide Two Integers",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/divide-two-integers/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 08 - Bit Manipulation/POWER-OF-TWO.py",
+  "problem": "Power of Two",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/power-of-two/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 08 - Bit Manipulation/PRIME-FACTORISATION.py",
+  "problem": "Prime Factorisation",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 08 - Bit Manipulation/SET-UNSET-RIGHTMOST-UNSET.py",
+  "problem": "Set the Rightmost Unset Bit",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 08 - Bit Manipulation/SIEVE.py",
+  "problem": "Count Primes",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/count-primes/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 08 - Bit Manipulation/TWO-NUMBERS-WITH-ODD-OCCURENCE.py",
+  "problem": "Single Number III",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/single-number-iii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 08 - Bit Manipulation/XOR-L-TO-R.py",
+  "problem": "XOR of Numbers from L to R",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 09 - Stacks Queues/ASTEROID-COLLISION.py",
+  "problem": "Asteroid Collision",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/asteroid-collision/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 09 - Stacks Queues/CRAWLER-LOG-FOLDER.py",
+  "problem": "Crawler Log Folder",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/crawler-log-folder/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 09 - Stacks Queues/INFIX-PREFIX-POSTFIX/INFIX-POSTFIX.py",
+  "problem": "Infix to Postfix Conversion",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 09 - Stacks Queues/INFIX-PREFIX-POSTFIX/INFIX-PREFIX.py",
+  "problem": "Infix to Prefix Conversion",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 09 - Stacks Queues/INFIX-PREFIX-POSTFIX/POSTFIX-INFIX.py",
+  "problem": "Postfix to Infix Conversion",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 09 - Stacks Queues/INFIX-PREFIX-POSTFIX/POSTFIX-PREFIX.py",
+  "problem": "Postfix to Prefix Conversion",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 09 - Stacks Queues/INFIX-PREFIX-POSTFIX/PREFIX-INFIX.py",
+  "problem": "Prefix to Infix Conversion",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 09 - Stacks Queues/INFIX-PREFIX-POSTFIX/PREFIX-POSTFIX.py",
+  "problem": "Prefix to Postfix Conversion",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 09 - Stacks Queues/LARGEST-RECTANGLE-IN-HISTOGRAM.py",
+  "problem": "Largest Rectangle in Histogram",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 09 - Stacks Queues/MAXIMAL-RECTANGLE.py",
+  "problem": "Maximal Rectangle",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/maximal-rectangle/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 09 - Stacks Queues/MIN-STACK.py",
+  "problem": "Min Stack",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/min-stack/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 09 - Stacks Queues/NEXT-GREATER-ELEMENT-2.py",
+  "problem": "Next Greater Element II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/next-greater-element-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 09 - Stacks Queues/NEXT-SMALLER.py",
+  "problem": "Final Prices With a Special Discount in a Shop",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 09 - Stacks Queues/NUMBER-OF-NGES-TO-THE-RIGHT.py",
+  "problem": "Number of NGEs to the Right",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 09 - Stacks Queues/QUEUE-USING-STACK.py",
+  "problem": "Implement Queue using Stacks",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/implement-queue-using-stacks/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 09 - Stacks Queues/REMOVE-K-DIGITS.py",
+  "problem": "Remove K Digits",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/remove-k-digits/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 09 - Stacks Queues/SLIDING-WINDOW-MAX.py",
+  "problem": "Sliding Window Maximum",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/sliding-window-maximum/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 09 - Stacks Queues/STACK-USING-LINKEDLIST.py",
+  "problem": "Implement Stack Using a Linked List",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 09 - Stacks Queues/STACK-USING-ONE-QUEUE.py",
+  "problem": "Implement Stack using Queues",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/implement-stack-using-queues/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 09 - Stacks Queues/STACK-USING-TWO-QUEUE.py",
+  "problem": "Implement Stack using Queues",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/implement-stack-using-queues/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 09 - Stacks Queues/STOCK-SPAN.py",
+  "problem": "Online Stock Span",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/online-stock-span/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 09 - Stacks Queues/SUM-OF-SUBARRAY-MINIMUMS.py",
+  "problem": "Sum of Subarray Minimums",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/sum-of-subarray-minimums/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 09 - Stacks Queues/SUM-OF-SUBARRAY-RANGES.py",
+  "problem": "Sum of Subarray Ranges",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/sum-of-subarray-ranges/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 09 - Stacks Queues/TRAPPING-RAINWATER.py",
+  "problem": "Trapping Rain Water",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/trapping-rain-water/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 09 - Stacks Queues/VALID-PARANTHESES.py",
+  "problem": "Valid Parentheses",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/valid-parentheses/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 10 - Sliding Window/BINARY-SUBARR-WITH-GOAL.py",
+  "problem": "Binary Subarrays With Sum",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/binary-subarrays-with-sum/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 10 - Sliding Window/COUNT-K-UNIQ-ELEM-SUBARRAY.py",
+  "problem": "Subarrays with K Different Integers",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 10 - Sliding Window/FRUITS-BASKETS.py",
+  "problem": "Fruit Into Baskets",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/fruit-into-baskets/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 10 - Sliding Window/LONGEST-K-UNIQ-CHARS-SUBSTRING.py",
+  "problem": "Longest Substring with At Most K Distinct Characters",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 10 - Sliding Window/LONGEST-REP-CHARS-REPLACE.py",
+  "problem": "Longest Repeating Character Replacement",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 10 - Sliding Window/LONGEST-SUBSTR-REP-CHARS.py",
+  "problem": "Longest Substring Without Repeating Characters",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 10 - Sliding Window/MAX-CONSEC-ONES.py",
+  "problem": "Max Consecutive Ones III",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/max-consecutive-ones-iii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 10 - Sliding Window/MAX-POINTS-OBTAINED-FROM-CARDS.py",
+  "problem": "Maximum Points You Can Obtain from Cards",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 10 - Sliding Window/MIN-WINDOW-SUBSTRING.py",
+  "problem": "Minimum Window Substring",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/minimum-window-substring/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 10 - Sliding Window/NICE-SUBARRAY.py",
+  "problem": "Count Number of Nice Subarrays",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/count-number-of-nice-subarrays/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 10 - Sliding Window/SUBSTRING-CONTAINING-ALL-THREE-CHARS.py",
+  "problem": "Number of Substrings Containing All Three Characters",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 11 - Heaps/DESIGN-TWITTER.py",
+  "problem": "Design Twitter",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/design-twitter/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 11 - Heaps/DIVIDE-ARR-IN-SETS-OF-K-CONSEC-NUMBERS.py",
+  "problem": "Divide Array in Sets of K Consecutive Numbers",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 11 - Heaps/HEAP-SORT.py",
+  "problem": "Sort an Array",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/sort-an-array/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 11 - Heaps/INTRO-IMPLEMENT.py",
+  "problem": "Implement a Min / Max Heap",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "Concept"
+ },
+ {
+  "file": "Step 11 - Heaps/K-MOST-FREQUENT.py",
+  "problem": "Top K Frequent Elements",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 11 - Heaps/KTH-LARGEST-IN-STREAM.py",
+  "problem": "Kth Largest Element in a Stream",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 11 - Heaps/KTH-LARGEST.py",
+  "problem": "Kth Largest Element in an Array",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 11 - Heaps/MAX-COMBINATION-SUM.py",
+  "problem": "Find K Pairs with Smallest Sums",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/find-k-pairs-with-smallest-sums/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 11 - Heaps/MEDIAN-DATA-STREAM.py",
+  "problem": "Find Median from Data Stream",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/find-median-from-data-stream/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 11 - Heaps/MERGE-K-LINKEDLISTS.py",
+  "problem": "Merge k Sorted Lists",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 11 - Heaps/MERGE-K-SORTED-ARR.py",
+  "problem": "Merge k Sorted Lists",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 11 - Heaps/MIN-COST-OF-ROPE.py",
+  "problem": "Minimum Cost to Connect Sticks",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/minimum-cost-to-connect-sticks/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 11 - Heaps/REPLACE-WITH-RANK.py",
+  "problem": "Rank Transform of an Array",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/rank-transform-of-an-array/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 11 - Heaps/TASK-SCHEDULER.py",
+  "problem": "Task Scheduler",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/task-scheduler/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 12 - Greedy Algorithm/ASSIGN-COOKIES.py",
+  "problem": "Assign Cookies",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/assign-cookies/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 12 - Greedy Algorithm/CANDY.py",
+  "problem": "Candy",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/candy/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 12 - Greedy Algorithm/COIN-CHANGE.py",
+  "problem": "Coin Change",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/coin-change/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 12 - Greedy Algorithm/FRACTIONAL-KNAPSACK.py",
+  "problem": "Fractional Knapsack",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 12 - Greedy Algorithm/INSERT-INTERVAL.py",
+  "problem": "Insert Interval",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/insert-interval/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 12 - Greedy Algorithm/JOB-SEQ-PROBLEM.py",
+  "problem": "Job Sequencing Problem",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 12 - Greedy Algorithm/JUMP-GAME-01.py",
+  "problem": "Jump Game",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/jump-game/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 12 - Greedy Algorithm/JUMP-GAME-02.py",
+  "problem": "Jump Game II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/jump-game-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 12 - Greedy Algorithm/MERGE-INTERVALS.py",
+  "problem": "Merge Intervals",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/merge-intervals/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 12 - Greedy Algorithm/MIN-NUMBER-PLATFORMS.py",
+  "problem": "Meeting Rooms II",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/meeting-rooms-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 12 - Greedy Algorithm/N-MEETINGS.py",
+  "problem": "N Meetings in One Room",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 12 - Greedy Algorithm/NON-OVERLAPPING-INTERVALS.py",
+  "problem": "Non-overlapping Intervals",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 12 - Greedy Algorithm/PAGE-FAULT.py",
+  "problem": "Page Faults in LRU",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 12 - Greedy Algorithm/SHORTEST-JOB-FIRST.py",
+  "problem": "Shortest Job First Scheduling",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 12 - Greedy Algorithm/VALID-PARANTHESES-01.py",
+  "problem": "Valid Parenthesis String",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/valid-parenthesis-string/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 12 - Greedy Algorithm/VALID-PARANTHESES-02.py",
+  "problem": "Valid Parenthesis String",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/valid-parenthesis-string/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/BALANCED-BINARY-TREE.py",
+  "problem": "Balanced Binary Tree",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/balanced-binary-tree/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/BFS-TRAVERSALS.py",
+  "problem": "Binary Tree Level Order Traversal",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/BINARY-TREE-RIGHT-SIDE-VIEW.py",
+  "problem": "Binary Tree Right Side View",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/CONSTRUCT-BINARY-TREE-FROM-PRE-IN-TRAVERSAL.py",
+  "problem": "Construct Binary Tree from Preorder and Inorder Traversal",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/CONVERT-SORTED-ARR-TO-BST.py",
+  "problem": "Convert Sorted Array to Binary Search Tree",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/COUNT-GOOD-NODES.py",
+  "problem": "Count Good Nodes in Binary Tree",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/DFS-TRAVERSALS.py",
+  "problem": "Binary Tree Inorder Traversal",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/DIAMETER-OF-BINARY-TREE.py",
+  "problem": "Diameter of Binary Tree",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/INVERT-BINARY-TREE.py",
+  "problem": "Invert Binary Tree",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/invert-binary-tree/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/KTH-SMALLEST-ELEMENT-IN-BST.py",
+  "problem": "Kth Smallest Element in a BST",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/LOWEST-COMMON-ANCESTOR.py",
+  "problem": "Lowest Common Ancestor of a Binary Tree",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/MAX-DEPTH-OF-BINARY-TREE.py",
+  "problem": "Maximum Depth of Binary Tree",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/MAX-PATH-SUM.py",
+  "problem": "Binary Tree Maximum Path Sum",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/SAME-TREE.py",
+  "problem": "Same Tree",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/same-tree/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/SEARCH-IN-BST.py",
+  "problem": "Search in a Binary Search Tree",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/search-in-a-binary-search-tree/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/SERIALISE-DESERIALISE.py",
+  "problem": "Serialize and Deserialize Binary Tree",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/SUBTREE-OF-ANOTHER-TREE.py",
+  "problem": "Subtree of Another Tree",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/subtree-of-another-tree/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 13 + 14 - Trees + BST/VALIDATE-BST.py",
+  "problem": "Validate Binary Search Tree",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/01-MATRIX.py",
+  "problem": "01 Matrix",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/01-matrix/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/ACCOUNT-MERGE.py",
+  "problem": "Accounts Merge",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/accounts-merge/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/ALIENS-DICTIONARY.py",
+  "problem": "Alien Dictionary",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/alien-dictionary/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/BELLMAN-FORD.py",
+  "problem": "Cheapest Flights Within K Stops",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/BFS.py",
+  "problem": "BFS of Graph",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 15 - Graphs/BINARY-MAZE-SHORTEST-PATH.py",
+  "problem": "Shortest Path in Binary Matrix",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/BIPARTITE-GRAPH.py",
+  "problem": "Is Graph Bipartite?",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/is-graph-bipartite/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/CHEAPEST-FLIGHT-K-STOPS.py",
+  "problem": "Cheapest Flights Within K Stops",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/COURSE-SCHEDULE-1.py",
+  "problem": "Course Schedule",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/course-schedule/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/COURSE-SCHEDULE-2.py",
+  "problem": "Course Schedule II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/course-schedule-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/DFS.py",
+  "problem": "DFS of Graph",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 15 - Graphs/DIRECTED-GRAPH-CYCLE-BFS.py",
+  "problem": "Course Schedule",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/course-schedule/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/DIRECTED-GRAPH-CYCLE-DFS.py",
+  "problem": "Course Schedule",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/course-schedule/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/DISJOINT-SET-IMPLEMENTATION.py",
+  "problem": "Disjoint Set (Union-Find) Implementation",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "Concept"
+ },
+ {
+  "file": "Step 15 - Graphs/DJIKSTRA-ALGORITHM.py",
+  "problem": "Network Delay Time",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/network-delay-time/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/ENCLAVES.py",
+  "problem": "Number of Enclaves",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/number-of-enclaves/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/EVENTUAL-SAFE-STATES.py",
+  "problem": "Find Eventual Safe States",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/find-eventual-safe-states/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/FLOOD-FILL.py",
+  "problem": "Flood Fill",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/flood-fill/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/FLOYD-WARSHALL.py",
+  "problem": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/MAKE-A-LARGE-ISLAND.py",
+  "problem": "Making A Large Island",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/making-a-large-island/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/MIN-MULTIPLICATIONS-TO-REACH-END.py",
+  "problem": "Minimum Operations to Convert Number",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/minimum-operations-to-convert-number/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/MINIMUM-EFFORT-PATH.py",
+  "problem": "Path With Minimum Effort",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/path-with-minimum-effort/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/MOST-STONES-REMOVED-WITHIN-SAME-ROW.py",
+  "problem": "Most Stones Removed with Same Row or Column",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/MST-KRUSKAL-ALGO.py",
+  "problem": "Min Cost to Connect All Points",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/MST-PRIMS-ALGORITHM.py",
+  "problem": "Min Cost to Connect All Points",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/NETWORK-DELAY.py",
+  "problem": "Network Delay Time",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/network-delay-time/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/NUM-WAYS-TO-ARRIVE-AT-DESTINATION.py",
+  "problem": "Number of Ways to Arrive at Destination",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/NUMBER-PROVINCES.py",
+  "problem": "Number of Provinces",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/number-of-provinces/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/OPERATIONS-TO-MAKE-NETWORK-CONNECTED.py",
+  "problem": "Number of Operations to Make Network Connected",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/ROTTEN-ORANGES.py",
+  "problem": "Rotting Oranges",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/rotting-oranges/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/SHORTEST-PATH-UG.py",
+  "problem": "Shortest Path in Undirected Graph (unit weights)",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 15 - Graphs/SMALLEST-DISTANCE-THRESHOLD.py",
+  "problem": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/SURROUNDED-REGIONS.py",
+  "problem": "Surrounded Regions",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/surrounded-regions/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/TOPOLOGICAL-SORT-BFS-KAHNS-ALGO.py",
+  "problem": "Course Schedule II",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/course-schedule-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/TOPOLOGICAL-SORT-DFS.py",
+  "problem": "Course Schedule II",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/course-schedule-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/UNDIRECTED-GRAPH-CYCLE-BFS.py",
+  "problem": "Redundant Connection",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/redundant-connection/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/UNDIRECTED-GRAPH-CYCLE-DFS.py",
+  "problem": "Redundant Connection",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/redundant-connection/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/WORD-LADDER-1.py",
+  "problem": "Word Ladder",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/word-ladder/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 15 - Graphs/WORD-LADDER-2.py",
+  "problem": "Word Ladder II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/word-ladder-ii/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/0-1-KNAPSACK.py",
+  "problem": "0/1 Knapsack",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/BURST-BALLOON-02.py",
+  "problem": "Burst Balloons",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/burst-balloons/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/CHOCO-PICKUP.py",
+  "problem": "Cherry Pickup II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/cherry-pickup-ii/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/CLIMBING-STAIRS.py",
+  "problem": "Climbing Stairs",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/climbing-stairs/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/DELETE-OPERATIONG-MAKE-STRING-SAME.py",
+  "problem": "Delete Operation for Two Strings",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/delete-operation-for-two-strings/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/DISTINCT-SUBSEQ.py",
+  "problem": "Distinct Subsequences",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/distinct-subsequences/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/DP-SQUARE-COUNT-SUBMATRICS.py",
+  "problem": "Count Square Submatrices with All Ones",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/count-square-submatrices-with-all-ones/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/EDIT-DISTANCE.py",
+  "problem": "Edit Distance",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/edit-distance/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/FROG-JUMP.py",
+  "problem": "Frog 1 (Frog Jump)",
+  "match": "other-platform",
+  "url": "https://atcoder.jp/contests/dp/tasks/dp_a",
+  "difficulty": "",
+  "note": "AtCoder"
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/HOUSE-ROBBER-1.py",
+  "problem": "House Robber",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/house-robber/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/HOUSE-ROBBER-2.py",
+  "problem": "House Robber II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/house-robber-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/LIS-01-IMPLEMENT.py",
+  "problem": "Longest Increasing Subsequence",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/LIS-02-PRINT-LIS.py",
+  "problem": "Longest Increasing Subsequence",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/LIS-03-LARGEST-DIV-SUBSET.py",
+  "problem": "Largest Divisible Subset",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/largest-divisible-subset/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/LIS-04-NUMBER-LIS.py",
+  "problem": "Number of Longest Increasing Subsequence",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/LIS-05-BITONIC.py",
+  "problem": "Minimum Number of Removals to Make Mountain Array",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/LIS-06-LONGEST-STRING-CHAIN.py",
+  "problem": "Longest String Chain",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/longest-string-chain/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/LONGEST-COMMON-SUBSEQ.py",
+  "problem": "Longest Common Subsequence",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/longest-common-subsequence/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/LONGEST-COMMON-SUBSTRING.py",
+  "problem": "Maximum Length of Repeated Subarray",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/maximum-length-of-repeated-subarray/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/LONGEST-PALINDROMIC-SUBSEQ.py",
+  "problem": "Longest Palindromic Subsequence",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/longest-palindromic-subsequence/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/MCM-01-MCM.py",
+  "problem": "Matrix Chain Multiplication",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/MCM-02-MIN-COST-TO-CUT-STICK.py",
+  "problem": "Minimum Cost to Cut a Stick",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/MIN-FALLING-PATH-SUM.py",
+  "problem": "Minimum Falling Path Sum",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/minimum-falling-path-sum/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/MIN-INSERTIONS-TO-MAKE-STRING-PALINDROME.py",
+  "problem": "Minimum Insertion Steps to Make a String Palindrome",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/MIN-PATH-SUM-TRIANGLE.py",
+  "problem": "Triangle",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/triangle/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/MINIMAL-COST.py",
+  "problem": "Frog 2 (Minimal Cost)",
+  "match": "other-platform",
+  "url": "https://atcoder.jp/contests/dp/tasks/dp_b",
+  "difficulty": "",
+  "note": "AtCoder"
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/NINJAS-TRAINING.py",
+  "problem": "Ninja's Training",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "Coding Ninjas"
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/PRINT-LONGEST-COMMON-SUBSEQ.py",
+  "problem": "Longest Common Subsequence",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/longest-common-subsequence/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/SHORTEST-COMMON-SUPERSEQ.py",
+  "problem": "Shortest Common Supersequence",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/shortest-common-supersequence/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/STOCKS-1.py",
+  "problem": "Best Time to Buy and Sell Stock",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+  "difficulty": "Easy",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/STOCKS-2.py",
+  "problem": "Best Time to Buy and Sell Stock II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/STOCKS-3.py",
+  "problem": "Best Time to Buy and Sell Stock III",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/STOCKS-4.py",
+  "problem": "Best Time to Buy and Sell Stock IV",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/STOCKS-5.py",
+  "problem": "Best Time to Buy and Sell Stock with Cooldown",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/STOCKS-6.py",
+  "problem": "Best Time to Buy and Sell Stock with Transaction Fee",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/SUBSEQ-01-SUBSET-SUM-PROBLEM.py",
+  "problem": "Partition Equal Subset Sum",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/partition-equal-subset-sum/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/SUBSEQ-02-PARTITION-EQUAL-SUBSET-SUM.py",
+  "problem": "Partition Equal Subset Sum",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/partition-equal-subset-sum/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/SUBSEQ-03-PARTITION-ARR-TO-MIN-SUM-DIFF.py",
+  "problem": "Last Stone Weight II",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/last-stone-weight-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/SUBSEQ-04-COUNT-SUBSET-EQ-TO-GIVEN-SUM.py",
+  "problem": "Target Sum",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/target-sum/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/SUBSEQ-05-PARTN-WITH-GIVEN-DIFF.py",
+  "problem": "Target Sum",
+  "match": "closest-equivalent",
+  "url": "https://leetcode.com/problems/target-sum/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/SUBSEQ-06-COIN-CHANGE.py",
+  "problem": "Coin Change",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/coin-change/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/SUBSEQ-07-TARGET-SUM.py",
+  "problem": "Target Sum",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/target-sum/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/SUBSEQ-08-COIN-CHANGE2.py",
+  "problem": "Coin Change II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/coin-change-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/SUBSEQ-09-KNAPSACK.py",
+  "problem": "Unbounded Knapsack",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/SUBSEQ-10-ROD-CUTTING.py",
+  "problem": "Rod Cutting",
+  "match": "concept",
+  "url": "",
+  "difficulty": "",
+  "note": "GeeksforGeeks"
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/UNIQUE-PATHS-1.py",
+  "problem": "Unique Paths",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/unique-paths/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/UNIQUE-PATHS-2.py",
+  "problem": "Unique Paths II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/unique-paths-ii/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 16 - Dynamic Programming/WILDCARD-MATCHING.py",
+  "problem": "Wildcard Matching",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/wildcard-matching/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 17 - Tries/DESIGN-ADD-SEARCH-DATA-STRUCTURE.py",
+  "problem": "Design Add and Search Words Data Structure",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 17 - Tries/DP-ON-TRIES-MIN-VALID-SUBSTRING.py",
+  "problem": "Minimum Valid Strings to Form Target I",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/minimum-valid-strings-to-form-target-i/",
+  "difficulty": "Hard",
+  "note": ""
+ },
+ {
+  "file": "Step 17 - Tries/IMPLEMENT-TRIE.py",
+  "problem": "Implement Trie (Prefix Tree)",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+  "difficulty": "Medium",
+  "note": ""
+ },
+ {
+  "file": "Step 17 - Tries/WORD-SEARCH-2.py",
+  "problem": "Word Search II",
+  "match": "exact",
+  "url": "https://leetcode.com/problems/word-search-ii/",
+  "difficulty": "Hard",
+  "note": ""
+ }
+]

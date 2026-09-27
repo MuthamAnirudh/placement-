@@ -1,0 +1,186 @@
+{
+  "_meta": {
+    "source": "curated (hand-compiled from public 2025-2026 job-posting skill-frequency surveys)",
+    "note": "Used as the offline baseline for the Market Intelligence Radar. Overwrite this file (or point MARKET_DATA_PATH at your own) to refresh it; live providers (Adzuna/JSearch), if configured, are blended with these weights.",
+    "last_updated": "2026-01-01"
+  },
+  "roles": {
+    "Software Engineer": {
+      "aliases": ["SDE", "Software Developer", "Full Stack Developer"],
+      "skills": [
+        {"skill": "Data Structures & Algorithms", "demand": 96, "growth": "stable"},
+        {"skill": "System Design", "demand": 82, "growth": "rising"},
+        {"skill": "Python", "demand": 88, "growth": "rising"},
+        {"skill": "Java", "demand": 74, "growth": "stable"},
+        {"skill": "JavaScript", "demand": 79, "growth": "stable"},
+        {"skill": "React", "demand": 71, "growth": "rising"},
+        {"skill": "SQL", "demand": 85, "growth": "stable"},
+        {"skill": "Git", "demand": 90, "growth": "stable"},
+        {"skill": "REST APIs", "demand": 77, "growth": "stable"},
+        {"skill": "Docker", "demand": 63, "growth": "rising"},
+        {"skill": "AWS", "demand": 68, "growth": "rising"},
+        {"skill": "CI/CD", "demand": 58, "growth": "rising"},
+        {"skill": "Microservices", "demand": 52, "growth": "rising"},
+        {"skill": "Testing/Unit Testing", "demand": 60, "growth": "stable"},
+        {"skill": "Kubernetes", "demand": 41, "growth": "rising"},
+        {"skill": "GraphQL", "demand": 33, "growth": "rising"},
+        {"skill": "TypeScript", "demand": 57, "growth": "rising"}
+      ]
+    },
+    "Data Scientist": {
+      "aliases": ["Data Science", "Applied Scientist"],
+      "skills": [
+        {"skill": "Python", "demand": 95, "growth": "stable"},
+        {"skill": "SQL", "demand": 89, "growth": "stable"},
+        {"skill": "Statistics", "demand": 83, "growth": "stable"},
+        {"skill": "Machine Learning", "demand": 91, "growth": "rising"},
+        {"skill": "Pandas/NumPy", "demand": 80, "growth": "stable"},
+        {"skill": "Scikit-learn", "demand": 66, "growth": "stable"},
+        {"skill": "Deep Learning", "demand": 61, "growth": "rising"},
+        {"skill": "PyTorch", "demand": 55, "growth": "rising"},
+        {"skill": "TensorFlow", "demand": 48, "growth": "stable"},
+        {"skill": "Data Visualization", "demand": 70, "growth": "stable"},
+        {"skill": "A/B Testing", "demand": 45, "growth": "rising"},
+        {"skill": "Big Data (Spark/Hadoop)", "demand": 40, "growth": "stable"},
+        {"skill": "LLMs / Generative AI", "demand": 58, "growth": "rising"},
+        {"skill": "MLOps", "demand": 37, "growth": "rising"},
+        {"skill": "Tableau/Power BI", "demand": 44, "growth": "stable"}
+      ]
+    },
+    "Data Analyst": {
+      "aliases": ["Business Analyst", "Analytics"],
+      "skills": [
+        {"skill": "SQL", "demand": 93, "growth": "stable"},
+        {"skill": "Excel", "demand": 85, "growth": "stable"},
+        {"skill": "Power BI", "demand": 68, "growth": "rising"},
+        {"skill": "Tableau", "demand": 60, "growth": "stable"},
+        {"skill": "Python", "demand": 66, "growth": "rising"},
+        {"skill": "Statistics", "demand": 62, "growth": "stable"},
+        {"skill": "Data Cleaning", "demand": 71, "growth": "stable"},
+        {"skill": "Data Storytelling", "demand": 55, "growth": "rising"},
+        {"skill": "A/B Testing", "demand": 38, "growth": "rising"},
+        {"skill": "ETL", "demand": 42, "growth": "stable"}
+      ]
+    },
+    "DevOps Engineer": {
+      "aliases": ["Site Reliability Engineer", "SRE", "Platform Engineer"],
+      "skills": [
+        {"skill": "Linux", "demand": 90, "growth": "stable"},
+        {"skill": "Docker", "demand": 87, "growth": "stable"},
+        {"skill": "Kubernetes", "demand": 82, "growth": "rising"},
+        {"skill": "AWS", "demand": 84, "growth": "rising"},
+        {"skill": "Terraform", "demand": 66, "growth": "rising"},
+        {"skill": "CI/CD", "demand": 80, "growth": "stable"},
+        {"skill": "Jenkins", "demand": 55, "growth": "stable"},
+        {"skill": "Bash/Scripting", "demand": 70, "growth": "stable"},
+        {"skill": "Monitoring (Prometheus/Grafana)", "demand": 52, "growth": "rising"},
+        {"skill": "Ansible", "demand": 44, "growth": "stable"},
+        {"skill": "Azure/GCP", "demand": 48, "growth": "rising"},
+        {"skill": "Security/DevSecOps", "demand": 41, "growth": "rising"}
+      ]
+    },
+    "Frontend Developer": {
+      "aliases": ["UI Developer", "Web Developer"],
+      "skills": [
+        {"skill": "JavaScript", "demand": 92, "growth": "stable"},
+        {"skill": "React", "demand": 86, "growth": "rising"},
+        {"skill": "HTML/CSS", "demand": 90, "growth": "stable"},
+        {"skill": "TypeScript", "demand": 68, "growth": "rising"},
+        {"skill": "Next.js", "demand": 54, "growth": "rising"},
+        {"skill": "Tailwind CSS", "demand": 50, "growth": "rising"},
+        {"skill": "Vue.js", "demand": 33, "growth": "stable"},
+        {"skill": "Web Performance", "demand": 46, "growth": "rising"},
+        {"skill": "Accessibility (a11y)", "demand": 38, "growth": "rising"},
+        {"skill": "Testing (Jest/RTL)", "demand": 45, "growth": "stable"},
+        {"skill": "REST/GraphQL APIs", "demand": 60, "growth": "stable"}
+      ]
+    },
+    "Backend Developer": {
+      "aliases": ["API Developer", "Server-side Developer"],
+      "skills": [
+        {"skill": "SQL", "demand": 87, "growth": "stable"},
+        {"skill": "REST APIs", "demand": 85, "growth": "stable"},
+        {"skill": "Python", "demand": 70, "growth": "rising"},
+        {"skill": "Java", "demand": 68, "growth": "stable"},
+        {"skill": "Node.js", "demand": 63, "growth": "stable"},
+        {"skill": "System Design", "demand": 75, "growth": "rising"},
+        {"skill": "Microservices", "demand": 58, "growth": "rising"},
+        {"skill": "Docker", "demand": 61, "growth": "rising"},
+        {"skill": "Redis/Caching", "demand": 44, "growth": "stable"},
+        {"skill": "Message Queues (Kafka/RabbitMQ)", "demand": 40, "growth": "rising"},
+        {"skill": "Database Design", "demand": 66, "growth": "stable"},
+        {"skill": "Authentication/Security", "demand": 55, "growth": "rising"}
+      ]
+    },
+    "ML Engineer": {
+      "aliases": ["Machine Learning Engineer", "AI Engineer"],
+      "skills": [
+        {"skill": "Python", "demand": 94, "growth": "stable"},
+        {"skill": "PyTorch", "demand": 70, "growth": "rising"},
+        {"skill": "Deep Learning", "demand": 76, "growth": "rising"},
+        {"skill": "MLOps", "demand": 60, "growth": "rising"},
+        {"skill": "Docker/Kubernetes", "demand": 58, "growth": "rising"},
+        {"skill": "Model Deployment", "demand": 55, "growth": "rising"},
+        {"skill": "LLMs / Generative AI", "demand": 72, "growth": "rising"},
+        {"skill": "Vector Databases", "demand": 42, "growth": "rising"},
+        {"skill": "Data Engineering", "demand": 48, "growth": "stable"},
+        {"skill": "Cloud (AWS/GCP/Azure)", "demand": 62, "growth": "rising"},
+        {"skill": "SQL", "demand": 68, "growth": "stable"}
+      ]
+    },
+    "QA Engineer": {
+      "aliases": ["Test Engineer", "SDET"],
+      "skills": [
+        {"skill": "Manual Testing", "demand": 70, "growth": "stable"},
+        {"skill": "Automation Testing (Selenium)", "demand": 78, "growth": "rising"},
+        {"skill": "API Testing (Postman)", "demand": 62, "growth": "stable"},
+        {"skill": "SQL", "demand": 58, "growth": "stable"},
+        {"skill": "Python/Java for Automation", "demand": 65, "growth": "rising"},
+        {"skill": "CI/CD Integration", "demand": 50, "growth": "rising"},
+        {"skill": "Performance Testing", "demand": 40, "growth": "stable"},
+        {"skill": "Bug Tracking (JIRA)", "demand": 60, "growth": "stable"}
+      ]
+    },
+    "Cloud Engineer": {
+      "aliases": ["Cloud Architect", "Cloud Support Engineer"],
+      "skills": [
+        {"skill": "AWS", "demand": 88, "growth": "rising"},
+        {"skill": "Azure", "demand": 62, "growth": "rising"},
+        {"skill": "GCP", "demand": 50, "growth": "rising"},
+        {"skill": "Terraform", "demand": 64, "growth": "rising"},
+        {"skill": "Kubernetes", "demand": 60, "growth": "rising"},
+        {"skill": "Networking", "demand": 58, "growth": "stable"},
+        {"skill": "Linux", "demand": 72, "growth": "stable"},
+        {"skill": "Cost Optimization", "demand": 36, "growth": "rising"},
+        {"skill": "Security/Compliance", "demand": 48, "growth": "rising"}
+      ]
+    },
+    "Cybersecurity Analyst": {
+      "aliases": ["Security Analyst", "InfoSec Analyst"],
+      "skills": [
+        {"skill": "Network Security", "demand": 80, "growth": "stable"},
+        {"skill": "SIEM Tools", "demand": 58, "growth": "rising"},
+        {"skill": "Penetration Testing", "demand": 55, "growth": "rising"},
+        {"skill": "Linux", "demand": 62, "growth": "stable"},
+        {"skill": "Cloud Security", "demand": 50, "growth": "rising"},
+        {"skill": "Incident Response", "demand": 52, "growth": "rising"},
+        {"skill": "Scripting (Python/Bash)", "demand": 48, "growth": "stable"},
+        {"skill": "Compliance (ISO/SOC2)", "demand": 34, "growth": "rising"}
+      ]
+    },
+    "Product Manager": {
+      "aliases": ["PM", "APM"],
+      "skills": [
+        {"skill": "Product Strategy", "demand": 78, "growth": "stable"},
+        {"skill": "SQL", "demand": 58, "growth": "rising"},
+        {"skill": "Data-driven Decision Making", "demand": 70, "growth": "rising"},
+        {"skill": "User Research", "demand": 60, "growth": "stable"},
+        {"skill": "Roadmapping", "demand": 65, "growth": "stable"},
+        {"skill": "A/B Testing", "demand": 48, "growth": "rising"},
+        {"skill": "Stakeholder Management", "demand": 62, "growth": "stable"},
+        {"skill": "Agile/Scrum", "demand": 55, "growth": "stable"},
+        {"skill": "Figma/Wireframing", "demand": 40, "growth": "stable"}
+      ]
+    }
+  }
+}

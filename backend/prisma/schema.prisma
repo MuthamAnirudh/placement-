@@ -1,0 +1,334 @@
+// Prisma schema — persistence layer added on top of the existing AI proxy backend.
+//
+// Design goals:
+//   - Additive only: nothing here touches /api/ai or /api/ai/stream.
+//   - One flexible `Result` table stores every result type (quiz, interview, roadmap,
+//     radar, resume analysis) as JSON, rather than five near-identical tables — this
+//     keeps the schema simple while the `type` + `summary*` columns still make the
+//     dashboard/leaderboard/percentile queries fast (no JSON parsing needed for those).
+//   - Refresh tokens are stored hashed and individually revocable (real logout / "log out
+//     of all devices", not just a client-side token discard).
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider      = "prisma-client-js"
+  // "native" keeps local dev/tests working on whatever OS you develop on; the second
+  // target is the engine binary Vercel's serverless (AWS Lambda) Node runtime needs.
+  // Without this, Prisma silently ships the wrong engine binary to Vercel and every
+  // DB-touching request 500s in production while working fine locally.
+  binaryTargets = ["native", "rhel-openssl-3.0.x"]
+}
+
+enum Role {
+  STUDENT
+  ADMIN
+  COORDINATOR
+  TEACHER
+  MENTOR
+}
+
+model User {
+  id           String    @id @default(uuid())
+  email        String    @unique
+  passwordHash String
+  name         String
+  role         Role      @default(STUDENT)
+  branch       String?
+  graduationYear Int?
+  year         String?
+  photo        String?
+  recoveryEmail String?
+  mustChangePassword Boolean @default(false)
+  faceDescriptor Json?
+  fingerprintCredentialId String?
+  classTeacherEmail String?
+  mentorEmail String?
+  legacySalt   String?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  lastLoginAt  DateTime?
+
+  results       Result[]
+  refreshTokens RefreshToken[]
+  passwordRecoveries PasswordRecovery[]
+  competencies  StudentCompetency[]
+  learningEvents LearningEvent[]
+
+  @@index([email])
+}
+
+// One row per issued refresh token (hashed). Lets us revoke a single session or all of
+// them, and rotate on every use to limit replay if a token is ever leaked.
+model PasswordRecovery {
+  id         String   @id @default(uuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tokenHash  String   @unique
+  expiresAt  DateTime
+  attempts   Int      @default(0)
+  verifiedAt DateTime?
+  usedAt     DateTime?
+  createdAt  DateTime @default(now())
+
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+model RefreshToken {
+  id        String   @id @default(uuid())
+  tokenHash String   @unique
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  expiresAt DateTime
+  revokedAt DateTime?
+  replacedByTokenHash String?
+  userAgent String?
+  ip        String?
+
+  @@index([userId])
+}
+
+enum ResultType {
+  QUIZ
+  INTERVIEW
+  ROADMAP
+  RADAR
+  RESUME_ANALYSIS
+  PLACEMENT_PREDICTION
+  MIRROR_MENTOR
+}
+
+// Generic result store. `payload` holds the full JSON blob the frontend already produces
+// (session transcript, ability trajectory, roadmap weeks, radar chart data, etc.) so no
+// existing data shape needs to change to be persisted. `summaryScore` / `summaryLabel` /
+// `topic` are pulled out at write time purely so the dashboard and the new AI/ML peer-
+// benchmarking endpoint can query/aggregate without touching the JSON payload.
+model Result {
+  id           String     @id @default(uuid())
+  userId       String
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type         ResultType
+  topic        String?
+  summaryScore Float?
+  summaryLabel String?
+  payload      Json
+  createdAt    DateTime   @default(now())
+
+  @@index([userId, type])
+  @@index([type, topic])
+}
+
+// ===== Competency Knowledge Graph =====================================================
+//
+// A deliberately simple, well-indexed graph layer on TOP of the existing Postgres/Prisma
+// database rather than a new Neo4j instance — per the project rule "don't introduce a new
+// database unnecessarily." Skills are nodes; SkillRelation rows are directed, typed edges.
+// The actual graph algorithms (topological order, cycle detection, gap analysis) live in
+// src/services/knowledgeGraph.js as pure, dependency-free functions over a plain
+// {skills, relations} object, so they're unit-testable without a database and reusable by
+// any future consumer (roadmap engine, career-path graph, tutor) without re-implementing
+// graph logic against Prisma directly.
+//
+// Direction conventions (these are NOT the same direction — see below):
+//   PREREQUISITE_OF:    fromSkill -> toSkill means "fromSkill must be learned BEFORE toSkill"
+//                        (fromSkill is a prerequisite of toSkill). This is the only type used
+//                        for learning-order sequencing (topologicalOrder/gapAnalysis default
+//                        to it) since it's the only one with an unambiguous "comes first"
+//                        reading.
+//   ADVANCED_VERSION_OF: fromSkill -> toSkill means "fromSkill IS a more advanced/specialized
+//                        form of toSkill" — i.e. toSkill is learned first, the opposite
+//                        chronological direction from PREREQUISITE_OF despite also being a
+//                        directed edge. Deliberately kept OUT of the topological-order
+//                        computation to avoid silently mixing two edge types with opposite
+//                        "which side comes first" semantics; it's a descriptive annotation
+//                        (e.g. for the tutor to say "here's the advanced version of what you
+//                        just learned"), not a sequencing input.
+// Both types are independently validated for acyclicity at write time in the repo layer (see
+// createRelation) since Postgres has no native DAG constraint — every relation write goes
+// through that check rather than raw Prisma calls.
+enum SkillRelationType {
+  PREREQUISITE_OF
+  RELATED_TO
+  ADVANCED_VERSION_OF
+  REQUIRED_BY
+  COMMONLY_CONFUSED_WITH
+}
+
+model Skill {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  // Top-level grouping — intentionally kept as a free-text label matching the existing
+  // adaptive-engine topic names (see ai-ml-service/data/adaptive_question_bank.json) so a
+  // BKT/IRT topic mastery result can be looked up as a Skill node by the same name with no
+  // translation layer needed.
+  category    String?
+  description String?
+  createdAt   DateTime @default(now())
+
+  outgoing SkillRelation[] @relation("SkillFrom")
+  incoming SkillRelation[] @relation("SkillTo")
+  competencies   StudentCompetency[]
+  learningEvents LearningEvent[]
+
+  @@index([category])
+}
+
+model SkillRelation {
+  id          String            @id @default(uuid())
+  fromSkillId String
+  toSkillId   String
+  type        SkillRelationType
+  // Confidence/strength of the relation, 0-1. Defaults to 1.0 (curated/certain) — lower
+  // values are for future auto-suggested edges (e.g. LLM- or co-occurrence-derived) that
+  // haven't been reviewed, so the UI/algorithms can weight or filter on it later without a
+  // schema change.
+  weight      Float             @default(1.0)
+  createdAt   DateTime          @default(now())
+
+  fromSkill Skill @relation("SkillFrom", fields: [fromSkillId], references: [id], onDelete: Cascade)
+  toSkill   Skill @relation("SkillTo", fields: [toSkillId], references: [id], onDelete: Cascade)
+
+  @@unique([fromSkillId, toSkillId, type])
+  @@index([fromSkillId])
+  @@index([toSkillId])
+}
+
+// ===== Student Digital Twin ============================================================
+//
+// StudentCompetency is a per-(user, skill) CURRENT-STATE snapshot — the thing the Dashboard/
+// roadmap/career-path modules read. LearningEvent is the append-only history that produced
+// it. Deliberately two tables rather than one: reading "what does this student know right
+// now" should be a single indexed row lookup, not an aggregation over every event ever
+// logged; but the raw event history still needs to exist somewhere durable, both as an audit
+// trail (doc requirement) and — concretely — as the "real interaction logs" that
+// ai-ml-service's adaptive_engine.fit_bkt_params_stub() is waiting on to eventually replace
+// literature-default BKT parameters with ones fit to this deployment's actual data.
+//
+// What updates a StudentCompetency row: today, only the adaptive-engine session report sync
+// (POST /api/twin/sync-adaptive-report). This is intentionally NOT a dumping ground every
+// module writes to ad hoc — each future writer (resume skill extraction, interview
+// performance, coding-tutor submissions) should go through its own reviewed sync endpoint
+// that knows how to translate its own evidence into a LearningEvent + competency update,
+// same pattern as this one, rather than writing raw rows directly.
+model StudentCompetency {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  skillId   String
+  skill     Skill    @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  // From the IRT side of the adaptive engine (continuous ability estimate + its precision).
+  theta          Float?
+  standardError  Float?
+  level          String?  // Beginner | Intermediate | Advanced | Expert (mirrors _level_for_theta)
+
+  // From the BKT side — the field most other modules should actually read for "does this
+  // student know X", since it's a calibrated probability rather than a raw ability score.
+  pKnow          Float?
+  masteryStatus  String?  // Not Started | Developing | Approaching Mastery | Mastered
+
+  questionsAnswered Int      @default(0)
+  lastPracticedAt   DateTime?
+  updatedAt         DateTime @updatedAt
+  createdAt         DateTime @default(now())
+
+  @@unique([userId, skillId])
+  @@index([userId])
+  @@index([skillId])
+}
+
+enum LearningEventType {
+  ADAPTIVE_MCQ
+  ADAPTIVE_CODING
+  // One row per rubric competency (Communication / Technical Depth / Problem Solving (STAR) /
+  // Confidence) ingested from a finished AI Mock Interviewer session — see
+  // digitalTwinRepo.syncInterviewSession(). Session-level granularity (the ai-ml-service
+  // in-memory session only returns the whole-session competency_rubric average, not a
+  // per-turn one), unlike ADAPTIVE_MCQ/CODING which are per-question.
+  INTERVIEW_RUBRIC
+  // One row per resume-listed skill that matched (exactly or semantically) a job description,
+  // ingested from ai-ml-service's POST /match/resume-jd/explain response — see
+  // digitalTwinRepo.syncResumeMatch(). Self-reported/unverified evidence: unlike the other
+  // three event types, this NEVER overwrites an existing tested StudentCompetency.pKnow (see
+  // the comment on syncResumeMatch for why), only fills in a provisional value where no other
+  // evidence exists yet.
+  RESUME_SKILL_EVIDENCE
+}
+
+// Append-only. One row per graded response ingested from an adaptive-engine session report.
+// Never updated or deleted by normal application flow (only cascade-deleted with the user) —
+// this is what makes it usable later as real training data for fit_bkt_params_stub(), which
+// needs an untouched history, not a table that's been overwritten down to current state.
+model LearningEvent {
+  id         String            @id @default(uuid())
+  userId     String
+  user       User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  skillId    String
+  skill      Skill             @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  type       LearningEventType
+  correct    Boolean
+  thetaAfter Float?
+  pKnowAfter Float?
+  sourceSessionId String?      // the ai-ml-service adaptive session_id this event came from
+  createdAt  DateTime          @default(now())
+
+  @@index([userId, skillId])
+  @@index([sourceSessionId])
+}
+
+
+// Generic persistent key/value store used by the legacy portal data layer.
+// `scope=shared` rows are globally visible; private rows are owned by a User.
+model PortalKV {
+  id        String   @id @default(uuid())
+  scope     String
+  key       String
+  ownerId   String @default("PUBLIC")
+  value     Json
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([scope, key, ownerId])
+  @@index([scope, ownerId])
+  @@index([scope, key])
+}
+
+// Flexible campus-table adapter. The existing frontend already treats these records as
+// table rows, so JSONB preserves their exact field names while keeping all persistence
+// behind Express + Prisma.
+model CampusRecord {
+  id        String   @id @default(uuid())
+  tableName String
+  recordKey String
+  data      Json
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([tableName, recordKey])
+  @@index([tableName])
+}
+
+// Gate passes are a first-class relational model because redemption must be atomic.
+// The full legacy pass object remains in `data` so existing UI/business logic keeps its
+// shape, while the fields used for verification are indexed/typed columns.
+model GatePass {
+  id          BigInt   @id
+  status      String
+  studentEmail String?
+  qrToken     String?  @unique
+  qrUsed      Boolean  @default(false)
+  qrUsedAt    DateTime?
+  expiresAt   DateTime?
+  data        Json
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([status])
+  @@index([studentEmail])
+  @@index([qrUsed])
+}

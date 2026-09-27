@@ -1,0 +1,46 @@
+{
+  "name": "campus-portal-ai-backend",
+  "version": "2.0.0",
+  "description": "Secure backend for the AI Powered Campus Placement Portal. Keeps the LLM API key server-side (/api/ai, /api/ai/stream) AND now owns a Postgres-backed persistence layer for user accounts, JWT auth, and saved quiz/interview/roadmap/radar/resume-analysis results (/api/auth/*, /api/results/*).",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "start:render": "prisma migrate deploy && node server.js",
+    "dev": "node --watch server.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:deploy": "prisma migrate deploy",
+    "prisma:studio": "prisma studio",
+    "prisma:seed": "node prisma/seed.js",
+    "test:graph": "node tests/knowledgeGraph.test.js",
+    "test:twin": "node tests/digitalTwin.test.js",
+    "test:bandit": "node tests/banditEngine.test.js",
+    "test:voice": "node tests/teacherVoice.test.js",
+    "test": "node tests/securityHardening.test.js && node tests/finalHardening.test.js && node tests/knowledgeGraph.test.js && node tests/digitalTwin.test.js && node tests/banditEngine.test.js && node tests/teacherVoice.test.js",
+    "postinstall": "prisma generate",
+    "test:security": "node tests/securityHardening.test.js",
+    "test:syntax": "find . -type f -name \"*.js\" -not -path \"./node_modules/*\" -print0 | xargs -0 -n1 node --check",
+    "test:hardening": "node tests/finalHardening.test.js",
+    "build": "node scripts/production-build.js"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express-rate-limit": "^7.4.0",
+    "@prisma/client": "^5.20.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cookie-parser": "^1.4.7"
+  },
+  "devDependencies": {
+    "prisma": "^5.20.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

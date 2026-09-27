@@ -1,0 +1,80 @@
+{
+  "_meta": {
+    "note": "Curated offline dataset \u2014 same design pattern as market_skills.json. Always available with zero external dependencies; a live/LLM-enriched narrative is layered on top only when an AI provider key is configured.",
+    "version": "1.0"
+  },
+  "archetypes": [
+    {
+      "id": "backend-engineer",
+      "title": "Backend / Platform Engineer",
+      "core_skills": ["Data Structures & Algorithms", "System Design", "Python", "Java", "SQL", "Docker", "REST APIs"],
+      "related_roles": ["Software Engineer", "SDE"],
+      "milestones": [
+        {"week": "1-2", "focus": "Solidify DSA + one backend language (Python or Java); build a REST CRUD API"},
+        {"week": "3-4", "focus": "Add auth, a real database (Postgres), and Dockerize the service"},
+        {"week": "5-6", "focus": "System design fundamentals: caching, load balancing, DB indexing, a mock design interview"},
+        {"week": "7-8", "focus": "Deploy a portfolio project end-to-end (CI/CD + cloud host) and mock-interview on it"}
+      ]
+    },
+    {
+      "id": "frontend-engineer",
+      "title": "Frontend / UI Engineer",
+      "core_skills": ["JavaScript", "React", "HTML/CSS", "TypeScript", "REST APIs", "Testing"],
+      "related_roles": ["Software Engineer", "Full Stack Developer"],
+      "milestones": [
+        {"week": "1-2", "focus": "Modern JS fundamentals + React (hooks, state management)"},
+        {"week": "3-4", "focus": "Build a full CRUD app consuming a real API, with routing and forms"},
+        {"week": "5-6", "focus": "TypeScript, component testing, accessibility basics"},
+        {"week": "7-8", "focus": "Performance (lazy loading, memoization) + deploy + polish portfolio"}
+      ]
+    },
+    {
+      "id": "data-scientist",
+      "title": "Data Scientist / ML Engineer",
+      "core_skills": ["Python", "Statistics", "Machine Learning", "SQL", "Pandas", "Deep Learning"],
+      "related_roles": ["Data Scientist", "Data Analyst", "Machine Learning Engineer"],
+      "milestones": [
+        {"week": "1-2", "focus": "Python + Pandas/NumPy fluency; statistics refresher"},
+        {"week": "3-4", "focus": "Classical ML (scikit-learn) on a real Kaggle-style dataset end-to-end"},
+        {"week": "5-6", "focus": "Deep learning basics (PyTorch/TF) + one applied project"},
+        {"week": "7-8", "focus": "Model deployment (API + monitoring) and a polished case-study writeup"}
+      ]
+    },
+    {
+      "id": "devops-engineer",
+      "title": "DevOps / Cloud Engineer",
+      "core_skills": ["Linux", "Docker", "Kubernetes", "CI/CD", "AWS/Azure/GCP", "Terraform", "Networking"],
+      "related_roles": ["DevOps Engineer", "Site Reliability Engineer", "Cloud Engineer"],
+      "milestones": [
+        {"week": "1-2", "focus": "Linux + shell scripting + Docker fundamentals"},
+        {"week": "3-4", "focus": "CI/CD pipeline for a real project (GitHub Actions) + one cloud provider basics"},
+        {"week": "5-6", "focus": "Kubernetes fundamentals; deploy a multi-service app to a cluster"},
+        {"week": "7-8", "focus": "Infrastructure-as-code (Terraform) + monitoring/alerting setup"}
+      ]
+    },
+    {
+      "id": "product-manager",
+      "title": "Associate Product Manager",
+      "core_skills": ["Product Sense", "SQL", "Communication", "Analytics", "Wireframing"],
+      "related_roles": ["Product Manager", "APM"],
+      "milestones": [
+        {"week": "1-2", "focus": "Frameworks (RICE, JTBD); write two mock PRDs on products you use"},
+        {"week": "3-4", "focus": "SQL for product analytics; define and track a metrics dashboard"},
+        {"week": "5-6", "focus": "Wireframe/prototype a feature end-to-end (Figma) with a rationale doc"},
+        {"week": "7-8", "focus": "Mock stakeholder interviews + a portfolio case study"}
+      ]
+    },
+    {
+      "id": "cybersecurity-analyst",
+      "title": "Cybersecurity Analyst",
+      "core_skills": ["Networking", "Linux", "Security Fundamentals", "Scripting", "Cloud Security"],
+      "related_roles": ["Security Analyst", "SOC Analyst"],
+      "milestones": [
+        {"week": "1-2", "focus": "Networking + Linux fundamentals; set up a home lab"},
+        {"week": "3-4", "focus": "Security fundamentals (OWASP Top 10), basic pentesting on a legal sandbox (e.g. TryHackMe)"},
+        {"week": "5-6", "focus": "Scripting for automation (Python) + a SIEM/log-analysis exercise"},
+        {"week": "7-8", "focus": "A capture-the-flag project writeup + cloud security basics for your portfolio"}
+      ]
+    }
+  ]
+}

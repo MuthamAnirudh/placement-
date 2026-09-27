@@ -1,0 +1,70 @@
+# --- Core web framework ---
+# Pinned to floors that ship real Python 3.14 (cp314) wheels. pydantic<2.12 has no
+# cp314 build of pydantic-core and will try to compile from source (needs Rust +
+# a C compiler) — 2.12+ is the first line with official 3.14 support.
+fastapi>=0.118.0
+uvicorn[standard]>=0.34.0
+python-multipart>=0.0.19
+pydantic>=2.12.0,<3.0.0
+python-dotenv>=1.0.1
+httpx>=0.28.1
+
+# --- NLP & Parsing ---
+pypdf>=5.1.0
+python-docx>=1.1.2
+# NOTE (Render free tier / 512MB RAM): spaCy, torch, sentence-transformers, and
+# faiss-cpu are intentionally OMITTED here. Every module that uses them
+# (app/services/parser.py, app/services/matcher.py) already detects their
+# absence at import time and transparently falls back to a pure-Python
+# keyword/hashed-bag-of-words implementation — no code changes needed, no
+# feature is removed, just lower match/parse precision than the full ML
+# stack would give. If you later move to a paid Render plan with more RAM,
+# uncomment the block below to restore full semantic matching:
+#   spacy==3.8.13              (+ `python -m spacy download en_core_web_sm`)
+#   torch>=2.9.1
+#   sentence-transformers>=3.3.1
+#   faiss-cpu>=1.11.0
+
+# --- Embeddings / Vector search ---
+numpy>=2.1.0
+# Optional cloud vector DBs — only needed if VECTOR_BACKEND=qdrant / pinecone
+qdrant-client>=1.12.1
+pinecone>=5.4.2
+
+# --- Speech-to-text (Whisper) ---
+# Hosted Whisper (OpenAI/Groq, the default — see WHISPER_PROVIDER in .env) needs
+# no extra package beyond httpx above, and is fully Python-3.14-compatible.
+#
+# WHISPER_PROVIDER=local (fully offline, no API key) depends on faster-whisper,
+# whose underlying engine (ctranslate2) does not yet publish Python 3.14 wheels
+# and has no source build available — this is upstream's limitation, not
+# something fixable from this project's requirements file. If you need the
+# offline/local Whisper mode specifically, run this ai-ml-service under a
+# separate Python 3.11 or 3.12 virtual environment (see README) and uncomment
+# the line below; every other feature in this file is unaffected either way.
+# faster-whisper==1.1.0
+
+# --- Optional persistence ---
+# Uncomment if you set DATABASE_URL to a real Postgres instance:
+# asyncpg==0.30.0
+# sqlalchemy==2.0.36
+
+# --- New in this release ---
+# Adaptive Skill Diagnostic Engine (/adaptive/*): pure stdlib (math/json/uuid) — no new deps.
+# AI Mock Interviewer NLP layer (/interview/analyze, /interview/session/*): pure stdlib (re) for
+#   the deterministic filler/hedge/sentiment/confidence scoring; reuses httpx (already above) for
+#   the LLM-backed feedback call. No new deps.
+# Skill Gap & Market Intelligence Radar (/market/*): reuses httpx (already above) for the optional
+#   live Adzuna/JSearch calls; runs entirely offline off data/market_skills.json otherwise. No new deps.
+
+# --- Multimodal Interview Intelligence (/interview/session/respond/multimodal) ---
+# Speech prosody (pauses/pitch): pure numpy (already above) + the `ffmpeg` binary on PATH for
+#   decoding whatever audio format the browser's MediaRecorder produced — add `ffmpeg` to the
+#   Dockerfile's apt-get install list (already done below), no Python package needed for it.
+# Visual behavioral indicators (face presence / posture / rough gaze): normally opencv-python,
+#   but that's omitted here for the Render free tier (see NLP & Parsing note above).
+#   app/services/video_behavioral.py already detects its absence and returns
+#   `available: false` with a plain reason instead of failing — no code change needed.
+#   Uncomment to restore this feature on a plan with more RAM:
+#   opencv-python>=4.10.0
+

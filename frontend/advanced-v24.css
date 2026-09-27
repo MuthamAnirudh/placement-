@@ -1,0 +1,3 @@
+/* Performance/accessibility support layer; no new interface. */
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}
+:where(button,a,input,textarea,select,[tabindex]):focus-visible{outline:3px solid rgba(99,102,241,.55);outline-offset:3px}

@@ -1,0 +1,4 @@
+/* Non-invasive polish for existing controls only. No new navigation or panels. */
+:root{--cp-focus:rgba(99,102,241,.42)}
+button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,[contenteditable="true"]:focus-visible{outline:3px solid var(--cp-focus);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}
